@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/style/base.css">
+    <link rel="stylesheet" type="text/css" href="/style/original.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta property="og:title" content="Nyan.Cat!" />
+    <meta property="og:description" content="The Official Homepage of Nyan Cat!" />
+    <meta property="og:image" content="http://www.nyan.cat/cats/original.gif" />
+    <meta name="google-site-verification" content="NnFCX6s3D9MkrLOfd2RJ_DiRdAMPParOq6yWx8N_moI" />
+    <title> NYAN.CAT! </title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <script type="text/javascript">
+  	  var catName = 'original';
+  	</script>
+  	<script type="text/javascript" src="/translations/base.js"></script>
+  	<script type="text/javascript" src="/translations/original.js"></script>
+	<script type="text/javascript" src="/scripts/jquery-1.6.4.js"></script>
+  	<script type="text/javascript" src="/scripts/konami.js"></script>
+  	<script type="text/javascript" src="/scripts/soundmanager2.js"></script>
+  	<script type="text/javascript" src="/scripts/base.js"></script>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <a href="#" onclick="closePlay();"><div id="muctr" class="muctr"><img src="/images/play.png"></div></a>
+    <div style="height:768px;width:161px;overflow:auto;overflow-x:hidden;" class="flavors" id="flavors" align="center">
+    <a href="#" style="font-size:14px;color:#ffffff;margin:2px;"id="volume">lower volume</a>
+    	<a href="/original"><img src="/images/thumbs/nyan.gif"></a><br>
+    	<a href="/grumpy"><img src="/images/thumbs/grumpy.gif"></a><br>
+    	<a href="/nyancoin"><img src="/images/thumbs/nyancoin.gif"></a><br>
+    	<a href="/gb"><img src="/images/thumbs/GB.gif"></a><br>
+    	<a href="/technyancolor"><img src="/images/thumbs/technyancolor.gif"></a></br>
+    	<a href="/jazz"><img src="/images/thumbs/jazz.gif"></a><br>
+    	<a href="/mexinyan"><img src="/images/thumbs/mexinyan.gif"></a><br>
+    	<a href="/j5"><img src="/images/thumbs/jacksnyan.gif"></a><br>
+    	<a href="/nyaninja"><img src="/images/thumbs/nyaninja.gif"></a><br>
+    	<a href="/pirate"><img src="/images/thumbs/pirate.gif"></a><br>
+    	<a href="/elevator"><img src="/images/thumbs/elevator.gif"></a><br>
+    	<a href="/pikanyan"><img src="/images/thumbs/pikanyan.gif"></a><br>
+    	<a href="/zombie"><img src="/images/thumbs/zombie.gif"></a><br>
+    	<a href="/mummy"><img src="/images/thumbs/mummy.gif"></a><br>
+    	<a href="/pumpkin"><img src="/images/thumbs/pumpkin.gif"></a><br>
+    	<a href="/wtf"><img src="/images/thumbs/glitch.gif"></a><br>
+    	<a href="/jamaicnyan"><img src="/images/thumbs/rasta.gif"></a><br>
+    	<a href="/america"><img src="/images/thumbs/uhmurica.gif"></a><br>
+    	<a href="/retro"><img src="/images/thumbs/retro.gif"></a><br>
+    	<a href="/vday"><img src="/images/thumbs/vday.gif"></a><br>
+    	<a href="/sad"><img src="/images/thumbs/sadnyan.gif"></a><br>
+    	<a href="/tacnayn"><img src="/images/thumbs/tacnayn.gif"></a><br>
+    	<a href="/dub"><img src="/images/thumbs/dub.gif"></a></br>
+    	<a href="/slomo"><img src="/images/thumbs/slomo.gif"></a><br>
+    	<a href="/xmas"><img src="/images/thumbs/xmas.gif"></a><br>
+    	<a href="/newyear"><img src="/images/thumbs/newyear.gif"></a><br>
+    	<a href="/fiesta"><img src="/images/thumbs/tacodog.gif"></a><br>
+    	<a href="/easter"><img src="/images/thumbs/easter.gif"></a><br>
+    	<a href="/bday"><img src="/images/thumbs/bday.gif"></a><br>
+    	<a href="/daft"><img src="/images/thumbs/daft.gif"></a><br>
+    	<a href="/paddy"><img src="/images/thumbs/paddy.gif"></a><br>
+    	<a href="/breakfast"><img src="/images/thumbs/breakfast.gif"></a><br>
+    	<a href="/melon"><img src="/images/thumbs/melonbird.gif"></a><br>
+    	<a href="/star"><img src="/images/thumbs/starsheep.gif"></a><br>
+    	<a href="/balloon"><img src="/images/thumbs/balloon.gif"></a><br>
+    	<a href="#" id="hidr"style="font-size:14px;color:#ffffff;margin:2px;"onclick="hideMenu');">Hide this</a>
+    </div>
+    <div>
+    	<br>
+  	  <h1 id='head'>NON-STOP NYAN CAT!</h1>
+    	<div class='bottom-pane'>
+    		<div id="bar">
+    			<a id="credits" href="/credits.php" target="_blank">Credits</a> .
+    			<a id="store" href="http://nyancatcity.myshopify.com/" target="_blank">Store</a> .
+    			<a id="stats" href="/stats.php" target="_blank">Stats</a>
+    		</div>
+    	</div>
+    	<div class='announce'>
+    	  <a target='_blank' href='https://itunes.apple.com/us/app/nyan-cat-stickers!/id1164381049?mt=8'>Animated iOS Nyan Cat Stickers Are Here!</a>  	  </div>
+  	</div>
+    <div id='rainbows' class='rainbows'>
+    	<div class='wrapper'>
+    		<div class='rainbow frame-1'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-2'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-3'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-4'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-5'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-6'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-1'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-2'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-3'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-4'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-5'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-6'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-1'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-2'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-3'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-4'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-5'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-6'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-1'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-2'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-3'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-4'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-5'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-6'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-1'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-2'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-3'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-4'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-5'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-6'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-1'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-2'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-3'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-4'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-5'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-6'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-1'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-2'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-3'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-4'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-5'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-6'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-1'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-2'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-3'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-4'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-5'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    		<div class='rainbow frame-6'><div class='wave wave-1'></div><div class='wave wave-2'></div><div class='wave wave-3'></div><div class='wave wave-4'></div><div class='wave wave-5'></div><div class='wave wave-6'></div><div class='wave wave-7'></div></div>
+    	</div>
+    </div><br>
+    <div id='cat' class='nyan-cat'>
+    	<img src="/cats/original.gif"></div>
+    <div id='timer'>
+	    		<div style="margin:6px;">
+    			<img src="/images/lovebot.gif"><a href="#" onclick="showMenu()"><img id="flav" src="/images/languages/eng/button.png"></a><img src="/images/lovebot.gif"><br><p>
+    </div>
+      <div id='ynf'>You've NYANED for</div>
+    	<div style="z-index:2;" class='time'>
+    		<span class='seconds'>0 </span>
+    		<div id='sec'>seconds</div>
+    		<div class='tweet-score i18n'>Tweet Your Score</div>
+    		<form action="score.php" method="post" target="_blank" name="scorforme">
+    		<input type="hidden" id="scorevalue" name="scorevalue" value="muffins">
+    		<!--<a href="#" class="i18n" onclick="scorforme.submit();">Share score on Facebook</a>-->
+    		</form>
+    		<br>
+	  		<a target="_blank" href="http://www.facebook.com/NyanCatWorld">
+          <img src="/images/facebook.png"></a>
+        <a target="_blank" href="http://twitter.com/#!/nyannyancat">
+          <img src="/images/twitter.png"></a>
+        <br>
+          <iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fnyan.cat%2F%3Ff%3D1&amp;layout=button_count&amp;show_faces=false&amp;width=110&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21" style="border:none; overflow:hidden; width:110px; height:22px;"></iframe>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://nyan.cat" data-text="NON-STOP NYAN CAT!" data-via="nyannyancat" data-related="nyannyancat">Tweet</a>
+        <br>
+        <a href="https://twitter.com/nyannyancat" class="twitter-follow-button" data-show-count="false">Follow @nyannyancat</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+	        <div id="andcopy">
+          <img src="/images/andcopy.png">
+        </div>	
+			
+    		<div id="storeitem">
+    		  <center><table>
+<tr><td>
+
+<a target="_blank" href="https://itunes.apple.com/us/app/nyan-cat-lost-in-space/id433592592?mt=8">
+  <img src="http://www.nyan.cat/images/cat/2.gif" style="height: auto;">
+</a>
+</td><td>
+<a target="_blank" href="https://play.google.com/store/apps/details?id=com.istomgames.engine&hl=en">
+  <img src="http://www.nyan.cat/images/cat/3.gif" style="height: auto;">
+</a>
+</td><td>
+<a target="_blank" href="http://itunes.apple.com/us/app/nyan-cat/id432805198?mt=8">
+  <img src="http://www.nyan.cat/images/cat/4.gif" style="height: auto;">
+</a>
+</td><td>
+<a target="_blank" href="https://itunes.apple.com/us/app/nyan-cat-stickers!/id1164381049?mt=8">
+  <img src="http://www.nyan.cat/images/cat/19.gif" style="height: auto;">
+</a>
+</td></tr></table></center>
+    	  </div>
+		  
+		  
+
+
+      </div>
+    </div>
+    <div class="ach" id="ach1"><div class="achhead">ACHIEVEMENT GET<div class="ach1close"></div><hr></div><img style="float:left;border-radius:12px;margin-left:8px;"src="/images/achievements/1c.png"><div class="desc"><h3>ONE THOUSNYAN</h3>Nyan for 1000 seconds!</div><div class="achlink"><a href="#" onClick="popitup('stats.php')">See more</a> . <a href="#" onClick="popitup500('http://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fnyan.cat&amp;text=I+NYANNED+FOR+1000+SECONDS+AND+UNLOCKED+THE+ACHIEVEMENT+%22ONE+THOUSNYAN%22&amp;url=http%3A%2F%2Fnyan.cat&amp;via=nyannyancat')">Tweet it</a><br><a href="#" onClick="popitup('https://www.facebook.com/dialog/feed?app_id=345907258806762&amp;link=https://www.nyan.cat&amp;picture=http://www.nyan.cat/images/achievements/1c.png&amp;name=ONE%20THOUSNYAN!&amp;caption=I%20earned%20the%20achievement%20%22One%20Thousnyan%22%20by%20nyanning%201000%20seconds%20at%20nyan.cat!%20&amp;description=Think%20you%20have%20what%20it%20takes?&amp;redirect_uri=http://www.nyan.cat/close.php')">Share it on facebook</a> . <a onClick="$('div.ach1').toggle();"href="#">CLOSE</a></div></div>
+    <div class="ach" id="ach2"><div class="achhead">ACHIEVEMENT GET<div class="ach1close"></div><hr></div><img style="float:left;border-radius:12px;margin-left:8px;"src="/images/achievements/2c.png"><div class="desc"><h3>OVER NYAN THOUSNYAN</h3>Nyan for 9001 seconds!</div><div class="achlink"><a href="#" onClick="popitup('stats.php')">See more</a> . <a href="#" onClick="popitup500('http://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fnyan.cat&amp;text=I+NYANNED+FOR+9001+SECONDS+AND+UNLOCKED+THE+ACHIEVEMENT+%22OVER+NYAN+THOUSAND%22&amp;url=http%3A%2F%2Fnyan.cat&amp;via=nyannyancat')">Tweet it</a><br><a href="#" onClick="popitup('https://www.facebook.com/dialog/feed?app_id=345907258806762&amp;link=https://www.nyan.cat&amp;picture=http://www.nyan.cat/images/achievements/2c.png&amp;name=OVER%20NYAN%20THOUSAND!&amp;caption=I%20earned%20the%20achievement%20%22Over%20Nyan%20Thousand%22%20by%20nyanning%209,001%20seconds%20at%20nyan.cat!%20&amp;description=Think%20you%20have%20what%20it%20takes?&amp;redirect_uri=http://www.nyan.cat/close.php')">Share it on facebook</a> . <a onClick="$('div.ach2').toggle();"href="#">CLOSE</a></div></div>
+    <div class="ach" id="ach3"><div class="achhead">ACHIEVEMENT GET<div class="ach1close"></div><hr></div><img style="float:left;border-radius:12px;margin-left:8px;"src="/images/achievements/3c.png"><div class="desc"><h3>ONE HUNDRED THOUSNYAN</h3>Nyan for 100,000 seconds!</div><div class="achlink"><a href="#" onClick="popitup('stats.php')">See more</a> . <a href="#" onClick="popitup500('http://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fnyan.cat&amp;text=I+NYANNED+FOR+100,000+SECONDS+AND+UNLOCKED+THE+ACHIEVEMENT+%22ONE+HUNDRED+THOUSNYAN%22&amp;url=http%3A%2F%2Fnyan.cat&amp;via=nyannyancat')">Tweet it</a><br><a href="#" onClick="popitup('https://www.facebook.com/dialog/feed?app_id=345907258806762&amp;link=https://www.nyan.cat&amp;picture=http://www.nyan.cat/images/achievements/3c.png&amp;name=ONE%20HUNDRED%20THOUSNYAN!&amp;caption=I%20earned%20the%20achievement%20%22One%20Hundred%20Thousnyan%22%20by%20nyanning%20100,000%20seconds%20at%20nyan.cat!%20&amp;description=Think%20you%20have%20what%20it%20takes?&amp;redirect_uri=http://www.nyan.cat/close.php')">Share it on facebook</a> . <a onClick="$('div.ach3').toggle();"href="#">CLOSE</a></div></div>
+    <div class="ach" id="ach4"><div class="achhead">ACHIEVEMENT GET<div class="ach1close"></div><hr></div><img style="float:left;border-radius:12px;margin-left:8px;"src="/images/achievements/4c.png"><div class="desc"><h3>FIVE HUNDRED THOUSNYAN</h3>Nyan for 500,000 seconds!</div><div class="achlink"><a href="#" onClick="popitup('stats.php')">See more</a> . <a href="#" onClick="popitup500('http://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fnyan.cat&amp;text=I+NYANNED+FOR+500,000+SECONDS+AND+UNLOCKED+THE+ACHIEVEMENT+%22FIVE+HUNDRED+THOUSNYAN%22&amp;url=http%3A%2F%2Fnyan.cat&amp;via=nyannyancat')">Tweet it</a><br><a href="#" onClick="popitup('https://www.facebook.com/dialog/feed?app_id=345907258806762&amp;link=https://www.nyan.cat&amp;picture=http://www.nyan.cat/images/achievements/4c.png&amp;name=FIVE%20HUNDRED%20THOUSNYAN!&amp;caption=I%20earned%20the%20achievement%20%22Five%20Hundred%20Millinyan%22%20by%20nyanning%20500,000%20seconds%20at%20nyan.cat!%20&amp;description=Think%20you%20have%20what%20it%20takes?&amp;redirect_uri=http://www.nyan.cat/close.php')">Share it on facebook</a> . <a onClick="$('div.ach4').toggle();"href="#">CLOSE</a></div></div>
+    <div class="ach" id="ach5"><div class="achhead">ACHIEVEMENT GET<div class="ach1close"></div><hr></div><img style="float:left;border-radius:12px;margin-left:8px;"src="/images/achievements/5c.png"><div class="desc"><h3>ONE MILLINYAN</h3>Nyan for one million seconds!</div><div class="achlink"><a href="#" onClick="popitup('stats.php')">See more</a> . <a href="#" onClick="popitup500('http://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fnyan.cat&amp;text=I+NYANNED+FOR+ONE+MILLION+SECONDS+AND+UNLOCKED+THE+ACHIEVEMENT+%22ONE+MILLINYAN%22&amp;url=http%3A%2F%2Fnyan.cat&amp;via=nyannyancat')">Tweet it</a><br><a href="#" onClick="popitup('https://www.facebook.com/dialog/feed?app_id=345907258806762&amp;link=https://www.nyan.cat&amp;picture=http://www.nyan.cat/images/achievements/5c.png&amp;name=ONE%20MILLINYAN!&amp;caption=I%20earned%20the%20achievement%20%22One%20Millinyan%22%20by%20nyanning%201,000,000%20seconds%20at%20nyan.cat!%20&amp;description=Think%20you%20have%20what%20it%20takes?&amp;redirect_uri=http://www.nyan.cat/close.php')">Share it on facebook</a> . <a onClick="$('div.ach5').toggle();"href="#">CLOSE</a></div></div>
+    <div class="ach" id="ach6"><div class="achhead">ACHIEVEMENT GET<div class="ach1close"></div><hr></div><img style="float:left;border-radius:12px;margin-left:8px;"src="/images/achievements/6c.png"><div class="desc"><h3>FIVE MILLINYAN</h3>Nyan for five million seconds!</div><div class="achlink"><a href="#" onClick="popitup('stats.php')">See more</a> . <a href="#" onClick="popitup500('http://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fnyan.cat&amp;text=I+NYANNED+FOR+FIVE+MILLION+SECONDS+AND+UNLOCKED+THE+ACHIEVEMENT+%FIVE+MILLINYAN%22&amp;url=http%3A%2F%2Fnyan.cat&amp;via=nyannyancat')">Tweet it</a><br><a href="#" onClick="popitup('https://www.facebook.com/dialog/feed?app_id=345907258806762&amp;link=https://www.nyan.cat&amp;picture=http://www.nyan.cat/images/achievements/6c.png&amp;name=FIVE%20MILLINYAN!&amp;caption=I%20earned%20the%20achievement%20%22Five%20Millinyan%22%20by%20nyanning%205,000,000%20seconds%20at%20nyan.cat!%20&amp;description=Think%20you%20have%20what%20it%20takes?&amp;redirect_uri=http://www.nyan.cat/close.php')">Share it on facebook</a> . <a onClick="$('div.ach6').toggle();"href="#">CLOSE</a></div></div>
+    <div class="ach" id="ach7"><div class="achhead">ACHIEVEMENT GET<div class="ach1close"></div><hr></div><img style="float:left;border-radius:12px;margin-left:8px;"src="/images/achievements/7c.png"><div class="desc"><h3>MISSINGNYAN</h3>Find the missingnyan cat.</div><div class="achlink"><a href="#" onClick="popitup('stats.php')">See more</a> . <a href="#" onClick="popitup500('http://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fnyan.cat&amp;text=I+FOUND+THE+MISSINGNYAN+CAT+AND+UNLOCKED+THE+ACHIEVEMENT+%22MISSINGNYAN%22&amp;url=http%3A%2F%2Fnyan.cat&amp;via=nyannyancat')">Tweet it</a><br><a href="#" onClick="popitup('https://www.facebook.com/dialog/feed?app_id=345907258806762&amp;link=https://www.nyan.cat&amp;picture=http://www.nyan.cat/images/achievements/7c.png&amp;name=MISSINGNYAN!&amp;caption=I%20earned%20the%20achievement%20%22Missingnyan%22%20at%20nyan.cat!%20&amp;description=Think%20you%20have%20what%20it%20takes?&amp;redirect_uri=http://www.nyan.cat/close.php')">Share it on facebook</a> . <a onClick="$('div.ach7').toggle();"href="#">CLOSE</a></div></div>
+    <div class="ach" id="ach8"><div class="achhead">ACHIEVEMENT GET<div class="ach1close"></div><hr></div><img style="float:left;border-radius:12px;margin-left:8px;"src="/images/achievements/8c.png"><div class="desc"><h3>IT'S RAINING NYAN</h3>Find the "level select" menu...</div><div class="achlink"><a href="#" onClick="popitup('stats.php')">See more</a> . <a href="#" onClick="popitup500('http://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fnyan.cat&amp;text=I+UNLOCKED+THE+ACHIEVEMENT+%22ITS+RAINING+NYAN%22.+CAN+YOU%3F&amp;url=http%3A%2F%2Fnyan.cat&amp;via=nyannyancat')">Tweet it</a><br><a href="#" onClick="popitup('https://www.facebook.com/dialog/feed?app_id=345907258806762&amp;link=https://www.nyan.cat&amp;picture=http://www.nyan.cat/images/achievements/8c.png&amp;name=IT%23S%20RAINING%20NYAN%20!&amp;caption=I%20earned%20the%20achievement%20%22It\%23s%20Raining%20Nyan%22%20at%20nyan.cat!%20&amp;description=Think%20you%20have%20what%20it%20takes?&amp;redirect_uri=http://www.nyan.cat/close.php')">Share it on facebook</a> . <a onClick="$('div.ach8').toggle();"href="#">CLOSE</a></div></div>
+    <div class="ach" id="ach9"><div class="achhead">ACHIEVEMENT GET<div class="ach1close"></div><hr></div><img style="float:left;border-radius:12px;margin-left:8px;"src="/images/achievements/9c.png"><div class="desc"><h3>NYAN FAN</h3>View every flavor.</div><div class="achlink"><a href="#" onClick="popitup('stats.php')">See more</a> . <a href="#" onClick="popitup500('http://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fnyan.cat&amp;text=I+WATCHED+EVERY+FLAVOR+AND+UNLOCKED+THE+ACHIEVEMENT+%22NYAN+FAN%22&amp;url=http%3A%2F%2Fnyan.cat&amp;via=nyannyancat')">Tweet it</a><br><a href="#" onClick="popitup('https://www.facebook.com/dialog/feed?app_id=345907258806762&amp;link=https://www.nyan.cat&amp;picture=http://www.nyan.cat/images/achievements/9c.png&amp;name=NYAN%20FAN%20!&amp;caption=I%20earned%20the%20achievement%20%22Nyan%20Fan%22%20by%20viewing%20every%20flavor%20at%20nyan.cat!%20&amp;description=Think%20you%20have%20what%20it%20takes?&amp;redirect_uri=http://www.nyan.cat/close.php')">Share it on facebook</a> . <a onClick="$('div.ach9').toggle();"href="#">CLOSE</a></div></div>
+    <div class="ach" id="ach10"><div class="achhead">ACHIEVEMENT GET<div class="ach1close"></div><hr></div><img style="float:left;border-radius:12px;margin-left:8px;"src="/images/achievements/10c.png"><div class="desc"><h3>OBSESSED</h3>View every flavor 100 times.</div><div class="achlink"><a href="#" onClick="popitup('stats.php')">See more</a> . <a href="#" onClick="popitup500('http://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fnyan.cat&amp;text=I+WATCHED+EVERY+FLAVOR+100+TIMES+AND+UNLOCKED+THE+ACHIEVEMENT+%22OBSESSED%22&amp;url=http%3A%2F%2Fnyan.cat&amp;via=nyannyancat')">Tweet it</a><br><a href="#" onClick="popitup('https://www.facebook.com/dialog/feed?app_id=345907258806762&amp;link=https://www.nyan.cat&amp;picture=http://www.nyan.cat/images/achievements/10c.png&amp;name=OBSESSED!&amp;caption=I%20earned%20the%20achievement%20%22Obsessed%22%20by%20viewing%20every%20flavor%20100%times%20at%20nyan.cat!%20&amp;description=Think%20you%20have%20what%20it%20takes?&amp;redirect_uri=http://www.nyan.cat/close.php')">Share it on facebook</a> . <a onClick="$('div.ach10').toggle();"href="#">CLOSE</a></div></div>
+    <ul class='langchooser'>
+    	<div id="langpick" class="slide2" style="cursor:pointer;">
+    	<a href="#"> <span id='pal'>Pick a language!</span> <img src="/images/v.png"> </a>
+    	</div>
+    	<div class="view2">
+    	<a href="javascript:setValue('deflang', 'eng', 365);" onclick="changeLanguage('eng');"> English </a> <br>
+    	<a href="javascript:setValue('deflang', 'nyn', 365);" onclick="changeLanguage('nyn');"> NYAN </a> <br>
+    	<a href="javascript:setValue('deflang', 'esp', 365);" onclick="changeLanguage('esp');"> español </a> <br>
+    	<a href="javascript:setValue('deflang', 'est', 365);" onclick="changeLanguage('est');"> eesti </a> <br>
+    	<a href="javascript:setValue('deflang', 'por', 365);" onclick="changeLanguage('por');"> português </a> <br>
+    	<a href="javascript:setValue('deflang', 'cat', 365);" onclick="changeLanguage('cat');"> català </a> <br>
+    	<a href="javascript:setValue('deflang', 'frn', 365);" onclick="changeLanguage('frn');"> français </a> <br>
+    	<a href="javascript:setValue('deflang', 'ger', 365);" onclick="changeLanguage('ger');"> Deutsch </a> <br>
+    	<a href="javascript:setValue('deflang', 'hbw', 365);" onclick="changeLanguage('hbw');"> עברית </a> <br>
+    	<a href="javascript:setValue('deflang', 'ind', 365);" onclick="changeLanguage('ind');"> bahasa Indonesia </a> <br>
+    	<a href="javascript:setValue('deflang', 'pol', 365);" onclick="changeLanguage('pol');"> polski </a> <br>
+    	<a href="javascript:setValue('deflang', 'rom', 365);" onclick="changeLanguage('rom');"> român </a> <br>
+    	<a href="javascript:setValue('deflang', 'trk', 365);" onclick="changeLanguage('trk');"> Türk </a> <br>
+    	<a href="javascript:setValue('deflang', 'krn', 365);" onclick="changeLanguage('krn');"> 한국 의 </a> <br>
+    	<a href="javascript:setValue('deflang', 'jpn', 365);" onclick="changeLanguage('jpn');"> 日本語 </a> <br>
+    	<br>
+    	</div>
+    </ul>
+    <br>
+    <br>
+    <script type="text/javascript">
+      //  This is here because it's faster to act than body onload
+      preReq();
+    </script>
+  </body>
+</html>
