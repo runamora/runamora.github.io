@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+ .container-fluid{
+	background: orange;
+	height: 70px;
+	text-align: center;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 50px;
+}
+.container-fluid p{
+	color: aliceblue;
+}
+	 
+.container-fluid1{
+	background: white;
+	height: 500px;
+	border:solid;
+	border-color: white;
+	text-align: center;
+}
+.col-md-3{
+	background: white;
+	height: 200px;
+	border:solid;
+  	border-color: white;
+}
+
+.container-fluid3{
+	background: orange;
+	height: 60px;
+	border:solid;
+	border-color: white;
+}
+.redes{
+	float: right;
+}
