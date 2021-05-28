@@ -127,10 +127,10 @@ function initialize()
 	
 	new THREE.MTLLoader()
 		.setPath( 'models/' )
-		//.load( 'fish-2.mtl', function ( materials ) {
-		//	materials.preload();
-		//	new THREE.OBJLoader()
-		//		.setMaterials( materials )
+		.load( 'fish-2.mtl', function ( materials ) {
+			materials.preload();
+			new THREE.OBJLoader()
+				.setMaterials( materials )
 				.setPath( 'models/' )
 				.load( 'fada.glb', function ( group ) {
 					mesh0 = group.children[0];
@@ -139,7 +139,7 @@ function initialize()
 					mesh0.scale.set(0.25,0.25,0.25);
 					markerRoot1.add(mesh0);
 				}, onProgress, onError );
-		//});
+		});
 }
 
 
