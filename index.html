@@ -1,212 +1,170 @@
-<!DOCTYPE html><html lang="en"><head>
-    <script src="p5.js"></script>
-    <script src="p5.sound.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.1/addons/p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8">
-    <title>x</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+  <title>Portfolio xba</title>
+    <meta content="Portfolio" property="og:title"/>
+    
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="Webflow" name="generator"/>
 
-  </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]  }});</script>
+    
+    <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+
+    <link href="https://assets.website-files.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/><link href="https://assets.website-files.com/img/webclip.png" rel="apple-touch-icon"/>
+
+</head>
+  
   <body>
-    <div>
-     <h3>
-      Xavier Barriga Abril
-     </h3>
-     
-     <p>
-       Xavier es diseñador (EC 2011) y MSc en Interacción Humano-Computadora (UK 2016). Su trabajo ha sido reconocido en premios nacionales (Premios Puruhá, 2007; RutaHack, 2018; Ecuador Poster Bienal, 2020 y 2022) e internacionales (Caracol de Plata, MX 2010; HCI Prize, UK 2016; Bienal Iberoamericana de Diseño, ES 2019 y 2021; Communities & Technologies, USA 2021), y su obra expuesta en varios países (España, China, Francia y Polonia). Actualmente, Xavier es docente-investigador de diseño para nuevos medios en la PUCE, delegado en la plataforma de innovación de base tecnológica HUB UIO, representante de la academia en la Mesa Interseccional de Transporte Alternativo de Quito, y tutor del Global Game Jam. Sus proyectos giran en torno a la exploración del espacio en escenarios interactivos, al código creativo y a la fabricación electrónica-digital.
-     </p>
-     <p>
-       EN<br>
-       Designer from Ecuador and MSc Human-Computer Interaction from the UK. Xavier holds some national and international awards (Mexico, Spain, USA, UK). He is professor of new media design at PUCE and his latest projects revolve around mixed reality design, space exploration in interactive scenes and animal-computer performance.
-     </p>
-      
-      <h5>
-       OBRAS RELEVANTES
-     </h5>
-      <h6>
-      100 Monalilsas (2022)
-      </h6>
-	<p>
- 	Barriga Abril X., Acosta J. & Basantes A. (2022) 100 Monalisas, Registro de Creación Digital. Congreso Iberoamericano de Ciencia Abierta
-	<a target="_blank" href="https://zenodo.org/record/7299785">https://zenodo.org/record/7299785</a><br>	
-     </p>
+    
+    <div data-collapse="medium" data-animation="default" data-duration="400" class="navigation w-nav">
+      <div class="navigation-items">
+        <a href="/" class="logo-link w-nav-brand w--current">
+          <h2> Portfolio</h2></a>
 
-      <h6>
-      Everything (2022)
-      </h6>
-	<p>
- 	Poster > 
-	<a target="_blank" href="https://editor.p5js.org/runamora/full/DPYd1TIYi ">https://editor.p5js.org/runamora/full/DPYd1TIYi </a><br>
- 	Oro > Categoría Poster Animado. En Ecuador Poster Bienal.  
-	<a target="_blank" href="https://ecuadorposterbienal.com/seleccionados/">https://ecuadorposterbienal.com/seleccionados/</a><br>
- 	Barriga-Abril X. (n.d.) rad_Serie. En Processing Community Catalog [PUBLICACIÓN PENDIENTE]
-	
-     </p>
-
-      <h6>
-      Pluriversal Design (2021)
-      </h6>
-	<p>
- 	Best Demo > En C&T 2021: Supplementary Proceedings of the 10th International Conference on Communities and Technologies<br>
-	Pinto N. & Barriga-Abril X. (2023) Diseñando entre estudiantes en tiempos de COVID: intervenciones participativas para apoyar redes de cuidado en la Amazonía. Eco Culturas [PUBLICACIÓN PENDIENTE]<br>
-	Barriga-Abril X. & Pinto N (2022) Designing together: participatory interventions supporting care networks amongst students during the pandemic in the amazon. The 10th CEISAL International Conference, 13–15 June 2022<br>
-	Kambunga A., Smith R., Winschiers-Theophilus H., Pinto N., Barriga-Abril X., Boffi L., Dzisi E., Zaman T., Ibinarriaga D., Chahine A., Jensen L. & Vold V. (2021) Pluriversal Design: A Virtual Decolonising Exhibition. C&T 2021: Supplementary Proceedings of the 10th International Conference on Communities and Technologies <br>
-	<a target="_blank" href="https://dl.eusset.eu/handle/20.500.12015/4201#">https://dl.eusset.eu/handle/20.500.12015/4201#</a><br>
-	Pinto N. & Barriga-Abril X. (2021) Design among students in times of COVID: participatory interventions to support networks of care in the Amazon. Cumulus Guayaquil 2021: Arts Imagining Communities to come [PUBLICACIÓN PENDIENTE]	
-     </p>
-
-      <h6>
-      Bloque FADA (2020)
-      </h6>
-	<p>
- 	Web >
-	<a target="_blank" href="https://bloquefada.github.io/">https://bloquefada.github.io/</a><br>
- 	Spitz R., González J.R., Ugarte S., Álvarez A., Barriga-Abril X. & Membrreño J. (2020) Towards a “better normal”: educational experiences in Design in Latin America during the COVID-19 pandemic. Strategic Design Research Journal.
-	<a target="_blank" href="http://revistas.unisinos.br/index.php/sdrj/article/view/sdrj.2020.133.21">http://revistas.unisinos.br/index.php/sdrj/article/view/sdrj.2020.133.21</a><br>
- 	Hacer Visible lo Invisible (2019)
-     </p>
-
-      <h6>
-      Hacer Visible lo Invisible (2019)
-      </h6>
-	<p>
- 	Manifiesto >
-	<a target="_blank" href=" https://hacervisibleloinvisible.github.io/"> https://hacervisibleloinvisible.github.io/</a><br>
- 	Prototipo >
-	<a target="_blank" href="https://www.youtube.com/watch?v=4s8Ukp6X2vg">https://www.youtube.com/watch?v=4s8Ukp6X2vg</a><br>	
-        Barriga Abril X. (2019) Hacer Visible lo Invisible. En Foro Mundial de la Bici 8.
-      </p>
-
-      <h6>
-      Barahúnda Boba (2019)
-      </h6>
-	<p>
- 	Github >
-	<a target="_blank" href="https://github.com/runamora/barahundaBoba">https://github.com/runamora/barahundaBoba</a><br>	
- 	Barriga Abril X. (2022) Patente de Diseño Industrial. En Gaceta de la Propiedad Intelectual No.707
-	<a target="_blank" href="http://gaceta.propiedadintelectual.gob.ec:8180/Gacetas/707/#p=604">http://gaceta.propiedadintelectual.gob.ec:8180/Gacetas/707/#p=604</a><br>
- 	Barriga Abril X. y Basantes A. (2019) Barahúnda Boba: La Memoria Sonora en Objetos Interactivos. En Diseño e Identidad Local en Ecuador (pp 23-35) 
-        <a target="_blank" href="https://edipuce.edu.ec/diseno-e-identidad-local-en-ecuador/">https://edipuce.edu.ec/diseno-e-identidad-local-en-ecuador/</a><br>
-     </p>
-
-
-
-      <h6>
-      Diario de la Mariscal (2018)
-      </h6>
-	<p>
- 	Mención > Diseño Gráfico y Comunicación Visual. En BID-DIMAD (Madrid, 2019)
-	<a target="_blank" href="http://galerias.bid-dimad.org/octavoencuentro/es/diario-de-la-mariscal/">http://galerias.bid-dimad.org/octavoencuentro/es/diario-de-la-mariscal/</a><br>
- 	Barriga Abril X. (2019) Diseñadores Activistas. En Diseño para la gente, para el desarrollo social y un mundo multicultural Madrid. 
-	<a target="_blank" href="http://bid-dimad.org/octavoencuentro/wp-content/uploads/2019/11/BID19_Disen%CC%83o-para_21nov15h_ConBiosFINAL.pdf?fbclid=IwAR3u6FprtaVA6kSBwqKO_EyZPTgi-erZQX9Afq3XrzxTUqt47nu4kw5HIXI">http://bid-dimad.org/octavoencuentro/wp-content/uploads/2019/11/BID19_Disen%CC%83o-para_21nov15h_ConBiosFINAL.pdf?fbclid=IwAR3u6FprtaVA6kSBwqKO_EyZPTgi-erZQX9Afq3XrzxTUqt47nu4kw5HIXI</a><br>	
-     </p>
-
-      <h6>
-      Snail's Place (2016)
-      </h6>
-	<p>
- 	Prototipo >
-	<a target="_blank" href="https://www.youtube.com/watch?v=Rpwm0J1qZHU&t">https://www.youtube.com/watch?v=Rpwm0J1qZHU&t</a><br>	
- 	Premio > HCI Prize (UK, 2016)<br>
- 	Barriga Abril X. (2018) Animales intérpretes inconscientes en el arte interactivo. Procesos Educativos Dentro del Arte Contemporáneo. Quito. (pp 44-51) 
-	<a target="_blank" href="http://revistaindex.net/index.php/cav/article/view/134">http://revistaindex.net/index.php/cav/article/view/134</a><br>
- 	Barriga Abril X. (2017) Snails Place. En Agenda Global, Acciones Locales. (pp 47)
-	<a target="_blank" href="https://issuu.com/vero786/docs/callforpostersfinal__1_">https://issuu.com/vero786/docs/callforpostersfinal__1_</a><br>
- 	Barriga-Abril X. (n.d.) Snails Place - Mixed Reality Artwork (UK, 2016). En Processing Community Catalog [PUBLICACIÓN PENDIENTE]
-
-     </p>
-
-
-     <h5>
-       BETA GAMES
-     </h5>
-
-      <h6>
-      Ecos (WIP)
-      </h6>
-	<p>
- 	Prototipo >
-	<a target="_blank" href="https://cxbarrigaa.github.io">https://cxbarrigaa.github.io</a><br>	
-        </p>
-
-      <h6>
-      Bit Bot Box (2018)
-      </h6>
-	<p>
- 	Global Game Jam >
-	<a target="_blank" href="https://globalgamejam.org/2018/games/bitbotbox">https://globalgamejam.org/2018/games/bitbotbox</a><br>
- 	Demo >
-	<a target="_blank" href="https://youtu.be/63pA9XP-ovs">https://youtu.be/63pA9XP-ovs</a><br>	
-        </p>
-
-      <h6>
-      Zen Waves (2017)
-      </h6>
-	<p>
- 	Global Game Jam >
-	<a target="_blank" href="https://globalgamejam.org/2017/games/zenwaves">https://globalgamejam.org/2017/games/zenwaves</a><br>	
- 	Demo >
-	<a target="_blank" href="https://www.youtube.com/watch?v=IaDq4Os7B1w">https://www.youtube.com/watch?v=IaDq4Os7B1w</a><br>
-        </p>
-
-      <h6>
-      Cotopaxi (2015)
-      </h6>
-	<p>
- 	Demo >
-	<a target="_blank" href="https://www.youtube.com/watch?v=mwZrcF7yNiY">https://www.youtube.com/watch?v=mwZrcF7yNiY</a><br>	
-        </p>
-
-
-     <h5>
-       OTRAS PUBLICACIONES
-     </h5>
-	<p>
- 	Bates B., Grijalva D., Jacho P., Barriga-Abril X. & Grivalva M.(2021) Participatory mural painting and identifying resources in Asset Based Community Development research: a case in rural Ecuador. Qualitative Research Reports in Communication 
-	<a target="_blank" href="https://www.tandfonline.com/doi/full/10.1080/17459435.2021.1940253">https://www.tandfonline.com/doi/full/10.1080/17459435.2021.1940253</a><br>	
-        Barriga Abril X. (2019) La Gráfica Popular y su Relación con la Cultura de Diseño. Foro Alfa. 
-	<a target="_blank" href="https://foroalfa.org/articulos/la-gra-fica-popular-y-su-relacio-n-con-la-cultura-de-disen-o">https://foroalfa.org/articulos/la-gra-fica-popular-y-su-relacio-n-con-la-cultura-de-disen-o</a>
-        </p>
-
-     <h5>
-       RECURSOS
-     </h5>
-
-      <h6>
-      PRODUCCIÓN DE NUEVOS MEDIOS (p5js + arduino)
-      </h6>
-	<p>
- 	Presentaciones >
-	<a target="_blank" href="https://drive.google.com/drive/folders/16r6ZsRMHSS9vJJUo5Opbk9HLWsBBg5af?usp=share_link
-">https://drive.google.com/drive/folders/16r6ZsRMHSS9vJJUo5Opbk9HLWsBBg5af?usp=share_link
-</a><br>
- 	Vídeos > 
-	<a target="_blank" href="https://www.youtube.com/playlist?list=PL0MQhHrPxmv4vf5BLNTlkf0TVB7UQPPrp">https://www.youtube.com/playlist?list=PL0MQhHrPxmv4vf5BLNTlkf0TVB7UQPPrp</a><br>	
-        </p>
-
-      <h6>
-      TALLER DE DISEÑO PARA NUEVOS MEDIOS (dcu + construct)
-      </h6>
-	<p>
- 	Presentaciones > 
-	<a target="_blank" href="https://drive.google.com/drive/folders/1q9v7MNtMnI6QaeoeqS2RfPrN4HZt3jL0?usp=share_link
-">https://drive.google.com/drive/folders/1q9v7MNtMnI6QaeoeqS2RfPrN4HZt3jL0?usp=share_link
-</a><br>	
- 	Vídeos > 
-	<a target="_blank" href="https://youtube.com/playlist?list=PL0MQhHrPxmv7SnbNZbmRCH9WVbSvy85N9">https://youtube.com/playlist?list=PL0MQhHrPxmv7SnbNZbmRCH9WVbSvy85N9</a><br>       
- 	Lecturas > 
-	<a target="_blank" href="https://www.dropbox.com/scl/fo/nsu50qnhdewizg8xovgx6/h?dl=0&rlkey=ta6ahjdash3gazmt1k0by43kc
-">https://www.dropbox.com/scl/fo/nsu50qnhdewizg8xovgx6/h?dl=0&rlkey=ta6ahjdash3gazmt1k0by43kc
-</a><br>
- 	Handouts > 
-	<a target="_blank" href="https://drive.google.com/drive/folders/10n0Y7ON7Y937aDh-yVrCLjbX3eRn1w3W?usp=share_link">https://drive.google.com/drive/folders/10n0Y7ON7Y937aDh-yVrCLjbX3eRn1w3W?usp=share_link</a><br>
- </p>
-
-      <br>
-      <h6>
-cxbarrigaa@puce.edu.ec
-     </h6>  
+        </div>
+          
+        </div>
+    
+    <div class="section">
+      <div class="container">
+        <div class="intro-wrap">
+          <div class="name-text">Xavier Barriga-Abril</div>
+          <div class="paragraph-light">Design, Art & Research</div>
+          <h3 class="heading-jumbo-small">Let me guide you through my creative journey and showcase some of my best work.</h3>
+        </div>  
+      </div> 
     </div>
-    <script src="sketch.js"></script>
-</body></html>
+    <!-- GALLERY -->
+    <div class="section">
+      <div id="works-grid" class="w-layout-grid works-grid">
+       
+        <!-- ARTWORK 1 -->
+        <!--<div id="w-node-8f65c72d8fa5-b6f621c6">-->
+        <div id="moduleA">
+
+          <div class="work-image cc-work-1 w-inline-block"></div>
+            <div class="work-description">
+              <p class="project-name-link">Invisible<br/></p>
+            <div class="paragraph-light">Hacer Visible lo Invisible (Making the Invisible Visible) is a project that observes cyclists' routes in the city and transforms this data into three-dimensional sculptures, which also serve as public bike repair stations.</div>
+            <div class="paragraph-tiny"><br>
+  Barriga-Abril X. et.al (2024) Data Portraits: Personal Journeys for Engaging with Urban Cycling Data. Data-Centric Design: Data as a Human-Centred Material (WIP) <br>
+     <a href="https://www.isec-society.org/ISEC_PRESS/LATAM_SEC_2024/xml/AAE-04.xml">Barriga-Abril X. et.al (2024) Making the invisible visible: Revealing data in the city. International Structural Engineering and Construction Society</a>
+     </div> 
+          </div>  
+        </div>
+        
+<!-- ARTWORK 2 -->
+        <!--<div id="w-node-8f65c72d8fad-b6f621c6">-->
+        <div id="moduleB">
+          <div class="work-image cc-work-2 w-inline-block"></div>
+          <div class="work-description">
+            <p href="/work/project-2" class="project-name-link">The Only Screen</p>
+            <div class="paragraph-light">The screens are the first thing we see when we wake up and the last thing we check before going to bed. In an effort to reclaim 100% human spaces, we built a DIY (do it
+yourself) electronic object that performs the only action preventing us from permanently removing screens from the room. This artwork is an invitation for you to create your own alarm clock using electronic manufacturing technology.</div>
+            <div class="paragraph-tiny">
+              
+            </div> 
+          </div> 
+        </div>      
+
+      <!-- ARTWORK 3 -->
+      <!--<div id="w-node-8f65c72d8fb4-b6f621c6">-->
+        <div id="moduleC">
+        <div class="work-image cc-work-3 w-inline-block"></div>
+        <div class="work-description">
+          <p class="project-name-link">Barahunda Boba</p>
+          <div class="paragraph-light">It is an object developed through the exploration of Quito's identity. It was built after studying Baroque concepts, both as a period and extrapolated to Baroque culture,
+as well as examining the grotesque tint of Dávila Andrade's story. The interactive object features an audio storage system, capturing sounds in the city of Quito to preserve the sonic memory of the urban area.</div>
+              <div class="paragraph-tiny"><br>    
+  <a href="https://www.nime.org/proc/nime2023_99/index.html">Barriga-Abril, X & Basantes, A. (2023) Missing the hubbub: Memory and identity in interactive audios. New Interfaces in Musical Expression</a>
+  <a href="https://edipuce.edu.ec/diseno-e-identidad-local-en-ecuador/#">Barriga-Abril, X & Basantes, A. (2021) Barahúnda Boba: La memoria Sonora en Objetos Interactivos. in Ortiz, I. (Ed.) Diseño e Identidad Local en Ecuador</a>
+          </div> 
+      </div>
+    </div>
+        
+        <!-- ARTWORK 4 -->
+        <!--<div id="w-node-8f65c72d8fbb-b6f621c6">-->
+          <div id="moduleD">
+          <div class="work-image cc-work-4 w-inline-block"></div>
+          <div class="work-description">
+            <p class="project-name-link">Everything</p>
+            <div class="paragraph-light">This generative poster was designed based on the movement of the macro and micro cosmos. An augmented reality installation allows the user to interact with the animation through the printed poster. This poster was created in p5.js. </div>
+            <div class="paragraph-tiny"><br>
+              <a href="http://bit.ly/everything_p5js" target="_blank">Demo</a>.</div> 
+        </div>
+      </div>
+        
+      <!-- ARTWORK 5 -->
+      <!--<div id="w-node-8f65c72d8fb4-b6f621c6">-->
+        <div id="moduleE">
+        <div class="work-image cc-work-5 w-inline-block"></div>
+        <div class="work-description">
+          <p class="project-name-link">Pluriversal Design</p>
+          <div class="paragraph-light">The exhibition explores how design can engage participants in virtual environments as spaces for decolonizing design practice and the production of shared knowledge. This work showcases research processes from Australia, Denmark, Ecuador, Finland, Ghana, Greenland, Italy, Malaysia, and Namibia.</div>
+          <div class="paragraph-tiny"><br>
+  <a href="https://researchportal.helsinki.fi/fi/publications/intervenciones-de-dise%C3%B1o-participativo-apoyando-redes-de-cuidado-">Pinto, N. & Barriga-Abril, X. & Machoa, K. & Minoia, P. (2023). Intervenciones de diseño participativo: apoyando redes de cuidado universitarias en tiempos de Covid. in Arias-Gutierrez, R. & Minoia, P (Ed.) Plurinacionalidad y justicia epistémica</a>
+  <a href="https://1library.co/document/qo5x1wrk-ceisal-symposia.html">Botero, A. et.al. (2022) Making Futures in Latin America: designing otherwise, CEISAL 2022</a>         
+  <a href="https://cumulusassociation.org/wp-content/uploads/2024/02/CUMULUS-Proceedings-Arts-imagining-communities-to-come.pdf">Pinto, N. y Barriga-Abril, X. (2021) Design among students in times of COVID: participatory interventions to support networks of care in the Amazon. Cumulus 2021</a> 
+ <a href="https://dl.eusset.eu/handle/20.500.12015/4201#">Kambunga, P. et. al(2021) Pluriversal Design: A Virtual Decolonising Exhibition, C&T 2021</a>
+          </div>        
+      </div>
+    </div>
+        
+        <!-- ARTWORK 6 -->
+        <!--<div id="w-node-8f65c72d8fbb-b6f621c6">-->
+        <div id="moduleF">
+          <div class="work-image cc-work-6 w-inline-block"></div>
+          <div class="work-description">
+            <p class="project-name-link">Snail's Place</p>
+            <div class="paragraph-light">This artwork utilizes two environments, physical and virtual, to represent a city located in the mountains. Archaeological evidence related to the artist's hometown was the resource used to bring the complexity of the cities; criteria in ambiguity were employed to inspire new narratives in the viewers. </div>
+            <div class="paragraph-tiny"><br>
+  <a href="https://discourse.processing.org/t/the-digital-copy-of-the-processing-community-catalog-is-now-available-online/42115">Barriga-Abril, X. (2022). Snail's Place. In McCarthy, L & Reas, C. (Ed.) Processing Community Catalog, The Processing Foundation</a>
+  <a href="http://www.revistaindex.net/index.php/cav/article/view/134#">Barriga-Abril, X. (2018) Animales: Intérpretes Inconscientes en el arte interactivo. Index Revista de Arte Contemporáneo</a>
+  <a href="https://issuu.com/vero786/docs/callforpostersfinal__1_#">Barriga-Abril, X. (2017) Lugar de Caracoles. In Rosero, V. (Ed.) Agenda Global Acciones Locales</a>
+            </div> 
+          </div>
+      </div>
+    </div>
+      
+      
+      <div class="container"><div class="carrer-headline-wrap"><h2>BIO</h2><p class="paragraph-light">I am a designer, artist, and researcher who delves into the convergence of technology and art. Throughout my professional journey, I have played an integral role in developing various new media creations and actively participated in collaborative and interdisciplinary initiatives. My academic endeavours have yielded over fifteen published works in renowned global journals. My artwork has been showcased in exhibitions spanning multiple countries, including Mexico, Spain, China, France, and Poland, and has earned recognition through both national and international awards. Currently, my focus centres on creative coding and the exploration of interactive maps.</p></div>
+        <!-- 
+        <div class="w-layout-grid work-experience-grid">
+          <div id="w-node-8f65c72d8fc9-b6f621c6" class="work-position-wrap">
+
+            <div class="position-name-text">Webflow</div>
+            <div class="paragraph-light cc-position-name">Graphic Designer</div>
+            <div class="paragraph-tiny cc-paragraph-tiny-light">April 2014 — Mar 2015<br/></div></div><div id="w-node-8f65c72d8fd1-b6f621c6" class="work-position-wrap">
+
+            <div class="position-name-text">Webflow</div>
+            <div class="paragraph-light cc-position-name">Web Designer</div>
+            <div class="paragraph-tiny cc-paragraph-tiny-light">Apr 2015 — Mar 2016<br/></div></div>
+
+            <div id="w-node-8f65c72d8fd9-b6f621c6" class="work-position-wrap">
+            <div class="position-name-text">Webflow</div>
+            <div class="paragraph-light cc-position-name">Visual Developer</div>
+            <div class="paragraph-tiny cc-paragraph-tiny-light">Jun 2016 — Jul 2017<br/></div></div>
+
+            <div id="w-node-8f65c72d8fe1-b6f621c6" class="work-position-wrap">
+            <div class="position-name-text">Webflow</div>
+            <div class="paragraph-light cc-position-name">Dictator</div>
+            <div class="paragraph-tiny cc-paragraph-tiny-light">Aug 2017 — forever<br/></div></div></div></div></div>
+-->
+    
+  <div class="footer-wrap">
+  
+  
+  <div class="footer-links">
+    <a href="mailto:cxbarrigaa@puce.edu.ec" target="_blank" class="footer-item">Mail</a>
+    <a href="https://www.instagram.com/runamora/" target="_blank" class="footer-item">Instagram</a><a href="https://www.researchgate.net/profile/Xavier-Barriga-Abril" target="_blank" class="footer-item">Researchgate</a></div></div>
+
+        <script src="sketch.js"></script>
+  </body>
+</html>

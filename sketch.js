@@ -1,10 +1,6 @@
-let bck=0;
-
 function setup() {
-  createCanvas(windowWidth, windowHeight); 
+  createCanvas(0, 0);
 }
 
 function draw() {
-  background(bck);
-  bck = map(mouseX,0,windowWidth,50,205);
 }
